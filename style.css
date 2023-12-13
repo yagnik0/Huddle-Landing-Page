@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 400;
+}
+
+main {
+    background: url(images/bg-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 4rem 8rem;
+    min-height: 100vh;
+    max-width: 120rem;
+}
+
+.logo {
+    width: 250px;
+    margin: 3rem 0;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    position: relative;
+}
+
+/* grid 1st column styling */
+.hero-image{
+    width: 600px;
+}
+
+/* grid 2nd column styling */
+.grid-2-col {
+    padding: 2rem;
+}
+
+.heading-style {
+    margin-top: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3.7rem;
+    margin-bottom: 2rem;
+}
+
+.para-style {
+    font-size: 1.5rem;
+    margin-bottom: 2.4rem;  
+}
+
+.btn-primary {
+    border: none;
+    padding: 1.4rem 4.5rem;
+    border-radius: 2rem;
+    transition: all 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-primary:hover {
+    background-color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.links-share {
+    position: absolute;
+    bottom: 0%;
+    left: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.links-style {
+    padding: 1.2rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    transform: all 0.3s;
+}
+
+.links-style:hover {
+    border: 1px solid hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+}
